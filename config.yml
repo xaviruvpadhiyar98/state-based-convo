@@ -1,0 +1,20 @@
+Complaints:
+  message: "What type of complaint would you like to register? Please specify if it is an account or a credit card issue."
+  buttons:
+    - text: "Account"
+      value: "Account"
+    - text: "Credit Card"
+      value: "CreditCard"
+
+Account:
+  message: "How can I help you with your account?"
+  previousIntent:
+    Complaints:
+      message: "You can raise a complaint regarding your account by following these steps: ..."
+
+
+CreditCardAccount:
+  message: "How can I help you with your credit card account?"
+  previousIntent:
+    Complaints:
+      message: "You can raise a complaint regarding your credit card account by following these steps: ..."
